@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jan 03 19:41:18 CST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-cb0e-43d7-ffffd68e82f4 
+on database directory /home/hector/Programacion/java/EleccionesIT5N/BaseDatos/BD_ELECCIONES with class loader java.net.URLClassLoader@4d484961 
+Loaded from file:/home/hector/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+user.dir=/home/hector/Programacion/java/EleccionesIT5N
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-58-generic
+derby.system.home=/home/hector/Programacion/java/EleccionesIT5N/BaseDatos
+Database Class Loader started - derby.database.classpath=''

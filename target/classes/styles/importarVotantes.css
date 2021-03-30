@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 dic. 2020, 10:28:49
+    Author     : hector
+*/
+
+.root{
+    -fx-background-color: blue;
+}
+
+.table-view{
+    -fx-font-size: 16px;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.table-row-cell:odd:filled {
+    -fx-background-color: #d4ffcb;
+}
+
+.table-row-cell:even:filled {
+    -fx-background-color: #f7d3b1;
+}
+
+.table-row-cell:selected .table-cell {
+   -fx-background-color: yellow; 
+}
+.table-row-cell:selected .text {
+       -fx-fill: blue ;
+
+}
+
+.button {
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#9a9a9a, #909090),
+        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+   
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+.button:pressed {
+   
+    -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+}
